@@ -8,17 +8,17 @@ import { aboutUs } from '../assets/images';
 const Hero = () => {
     return (
         <section className='relative mt-[50px] sm:mt-0' id='home'>
-            <div className='bg-black'>
-                <video src={video} muted loop autoPlay className='w-full object-contain z-[-1]'/>
+            <div className='bg-black '>
+                <video src={video} muted loop autoPlay className=' h-[100vh] w-full object-cover z-[-1]'/>
             </div>
             
 
-            <div className='flex flex-col items-center gap-3 sm:gap-3 absolute z-[1] top-0 mt-[13%] mx-auto w-full '>
-                <h1 className='text-white font-bold text-[24px] extraSmall:text-[38px] sm:text-[55px] md:text-[67px] lg:text-[98px]'>
+            <div className='flex flex-col items-center gap-3 sm:gap-3 absolute z-[1] top-0 mx-auto w-full mt-[200px] sm:mt-[210px] lg:mt-[220px]'>
+                <h1 className='text-white text-center font-bold text-[34px] extraSmall:text-[48px] sm:text-[60px] md:text-[74px] lg:text-[98px]'>
                     Nature is beatiful
                 </h1>
-                <p className='text-white font-semibold text-xs extraSmall:text-base sm:text-xl md:text-2xl lg:text-3xl mb-1'>You have all world outside windows!</p>
-                <button className='text-white text-xs extraSmall:text-base font-bold border px-3 py-1 rounded-xl hover:bg-white hover:text-blue-600 
+                <p className='text-white text-center font-semibold text-xs extraSmall:text-base sm:text-xl md:text-2xl lg:text-3xl mb-1'>You have all world outside windows!</p>
+                <button className='text-white text-center text-xs extraSmall:text-base font-bold border px-3 py-1 rounded-xl hover:bg-white hover:text-blue-600 
                 sm:text-xl 
                 md:py-2.5 md:px-7 md:text-2xl'>Contact us</button>
             </div>

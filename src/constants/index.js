@@ -1,4 +1,4 @@
-import { bali, capeTown, heroTours1, heroTours2, heroTours3, kyoto, morocco, queenstown } from '../assets/images'
+import { Girl1, Man1, Man2, bali, capeTown, heroTours1, heroTours2, heroTours3, kyoto, morocco, queenstown } from '../assets/images'
 import { star, badge, adjustments, flame, wallet, headphones } from '../assets/icons'
 
 
@@ -69,4 +69,43 @@ export const hotTours = [
     {imgURl: kyoto, title: "Enchanting Journey through Kyoto, Japan", description: "Step into the timeless beauty of Kyoto, Japan's cultural gem. Wander through serene bamboo groves in Arashiyama, uncover the exquisite architecture of Kinkakuji (Golden Pavilion), and partake in a traditional tea ceremony in the heart of Gion's historic streets.", price: '1035$'},
     {imgURl: queenstown, title: 'Serenity and Adventure in Queenstown, New Zealand', description: "Immerse yourself in the colors and flavors of Marrakech. Get lost in the bustling souks of the medina, marvel at the intricate details of the Bahia Palace, and savor the spices and aromas of Moroccan cuisine in Djemaa el-Fna square.", price: '850$'},
     {imgURl: morocco, title: 'Roaming the Vibrant Streets of Marrakech, Morocco', description: "Indulge in the tranquility of Queenstown's pristine nature. Cruise along Lake Wakatipu on a vintage steamship, hike through beech forests in Fiordland National Park, and take a scenic drive to Glenorchy for a breathtaking view of Lake Wakatipu and the surrounding mountains.", price: '850$'},
+]
+
+export const reviews = [
+    {
+        id: 1,
+        img: Man1,
+        name: 'Rupert Wood',
+        text: 'Just wanted to say many, many thanks for helping me set up an amazing Costa Rican adventure! My nephew and I had a great time! All of the accommodations were perfect, thank you!',
+    },
+    {
+        id: 2,
+        img: Girl1,
+        name: 'Catherine Williams',
+        text: 'I wanted to thank you very much for planning the trip to France for my sister and me. It was amazing and exceeded my expectations! We had a wonderful time and were very pleased.',
+    },
+    {
+        id: 3,
+        img: Man2,
+        name: 'Sam Peterson',
+        text: 'We had a marvelous time in our travels to Madagascar, Zimbabwe, and Botswana, we had just wonderful experiences. Your service was amazing and everyone was very attentive!',
+    },
+]
+
+export const achievs = [
+    {
+        id: 1,
+        number: '60+',
+        title: 'Tour programs',
+    },
+    {
+        id: 2,
+        number: '700+',
+        title: 'Happy clients',
+    },
+    {
+        id: 3,
+        number: '10+',
+        title: 'International Awards',
+    },
 ]

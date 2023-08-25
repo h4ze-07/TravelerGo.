@@ -27,10 +27,8 @@ function App() {
         <Contact />
       </section>
     </main>
-    <footer>
-      <section>
-        <Footer />
-      </section>
+    <footer className='w-full bg-blue-500 mt-[50px]'>
+      <Footer />
     </footer>
     </>
   )
