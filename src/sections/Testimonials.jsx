@@ -27,7 +27,7 @@ const Testimonials = () => {
                 <h2 className='text-[35px] sm:text-[45px] font-bold mx-auto w-full text-center mb-8'>Our Achievments</h2>
                 <div className='flex flex-wrap gap-[20px] justify-center items-center'>
                     {achievs.map((achiev) => (
-                        <div key={achiev.id} className={`flex justify-center bg-black bg-[url('src/assets/images/natureAchiev.jpg')] bg-cover bg-no-repeat w-[320px] h-[300px] `}>
+                        <div key={achiev.id} className={'flex justify-center bg-black bg-[url("src/assets/images/natureAchiev.jpg")] bg-cover bg-no-repeat w-[320px] h-[300px]'}>
                             <div className='w-full m-5 bg-white z-10 flex items-center justify-center flex-col'>
                                 <h3 className='font-bold text-[50px] text-blue-600'>{achiev.number}</h3>
                                 <p className='font-semibold text-[25px]'>{achiev.title}</p>
