@@ -8,3 +8,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+.achievment {
+  background-image: url(./assets/images/natureAchiev.jpg);
+}
